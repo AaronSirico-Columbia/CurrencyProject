@@ -3,21 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CurrencyProject.Interfaces;
 
-namespace CurrencyProject
+namespace CurrencyProject.USCoins
 {
     public abstract class Coin : ICoin
     {
         public int Year { get; set; }
         public double MonetaryValue { get; set; }
 
-        public string Name => throw new NotImplementedException();
+        public string Name { get; set; }
 
-        public Coin()  
-        { 
-        
-        
-        
+
+
+        public Coin()
+        {
+
+
+
         }
 
         public string About()

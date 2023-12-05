@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CurrencyProject.Repos.CurrencyRepo" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAABDEAACgAAAEAAAAgAAABAAEA=</HashCode>
+      <FileName>Repos\CurrencyRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CurrencyProject.Repos.USCurrencyRepo" Collapsed="true">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAABDMAAAgAAAEAIAAAAAABAAAA=</HashCode>
+      <FileName>Repos\USCurrencyRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyProject.USCoins.Coin" Collapsed="true">
+    <Position X="15.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAEAAAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>USCoins\Coin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CurrencyProject.USCoins.Dime" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>USCoins\Dime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyProject.USCoins.DollarCoin" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>USCoins\DollarCoin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyProject.USCoins.HalfDollar" Collapsed="true">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>USCoins\HalfDollar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyProject.USCoins.Nickel" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>USCoins\Nickel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyProject.USCoins.Penny" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>USCoins\Penny.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyProject.USCoins.Quarter" Collapsed="true">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>USCoins\Quarter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyProject.USCoins.USCoin" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>USCoins\USCoin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyProject.Currency" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="CurrencyProject.Currency.US">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Enum Name="CurrencyProject.Currency.US.USCoinMintMark" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Currency.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Enum>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Currency.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Currency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyProject.App" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyProject.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="CurrencyProject.Interfaces.IBankNote" Collapsed="true">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBankNote.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CurrencyProject.Interfaces.ICoin" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICoin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CurrencyProject.Interfaces.ICurrency" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Interfaces\ICurrency.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CurrencyProject.Interfaces.ICurrencyRepo" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAABDEAACgAAAAAAAAAAAABAAEA=</HashCode>
+      <FileName>Interfaces\ICurrencyRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

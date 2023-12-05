@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrencyProject
+namespace CurrencyProject.Interfaces
 {
-    interface IBankNote : ICurrency
+    public interface ICoin 
     {
-
-        int Year { get; set; }
-
+        public int Year { get; set; }
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrencyProject
+namespace CurrencyProject.Interfaces
 {
-    interface ICurrency
+    public interface ICurrency
     {
         double MonetaryValue { get; set; }
         string Name { get; }

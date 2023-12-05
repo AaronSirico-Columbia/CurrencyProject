@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrencyProject
+namespace CurrencyProject.UKCoins
 {
-    internal class Nickel : USCoin
+    internal class TwoPound
     {
-        public Nickel() { }
     }
 }
